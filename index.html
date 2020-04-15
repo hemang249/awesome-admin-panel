@@ -68,7 +68,7 @@
 				</div>
 			</div>
 			<div class="pill blue">
-				<i class="fa fa-arrow-circle-up" style="color: white; font-size: 55px"></i>
+				<i class="fa fa-rupee-sign" style="color: white; font-size: 55px"></i>
 				<div>
 					<p class="pill-heading">Total sales</p>
 					<span class="pill-num">$400</span>
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			<div class="pill pink">
-				<i class="fa fa-arrow-circle-up" style="color: white; font-size: 55px"></i>
+				<i class="fa fa-receipt" style="color: white; font-size: 55px"></i>
 				<div>
 					<p class="pill-heading">Total sales</p>
 					<span class="pill-num">$400</span>
@@ -84,7 +84,7 @@
 				</div>
 			</div>
 			<div class="pill ochre">
-				<i class="fa fa-arrow-circle-up" style="color: white; font-size: 55px"></i>
+				<i class="fa fa-chart-bar" style="color: white; font-size: 55px"></i>
 				<div>
 					<p class="pill-heading">Total sales</p>
 					<span class="pill-num">$400</span>
@@ -93,12 +93,72 @@
 			</div>
 		</div>
 
-		<div class="stats">
-			
+		<div class="stats-container">
+			<div class="sales">
+				<h4>Total Sales</h4>
+				<p> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque corporis vel magni enim placeat modi dignissimos. Eligendi aliquam quaerat qui!</p>
+				
+				<div class="sales-counter-container">
+					<div>
+						<h5>Revenue</h5>
+						<h3>10,500</h3>
+					</div>
+					<div>
+						<h5>Returns</h5>
+						<h3>07,500</h3>
+					</div>
+					<div>
+						<h5>Queries</h5>
+						<h3>01,879</h3>
+					</div>
+					<div>
+						<h5>Invoices</h5>
+						<h3>02,643</h3>
+					</div>
+				</div>
+
+				<div id="chart-sales" class="map-container">
+
+				</div>
+			</div>
+
+			<div class="users">
+				<div class="users-container">
+					<div class="user-stats">
+						<h5>Users</h5>
+						<br>
+						<span class="user-count">33,890</span>
+						<span><i class="fa fa-arrow-down" style="color: #E83350;"></i></span>
+						<span style="color: #E83350;">5.4%</span>
+						<div id="user-chart-1" class="map-container">	</div>
+					
+					</div>
+
+					<div class="user-stats">
+						<h5>Users</h5>
+						<br>
+						<span class="user-count">33,890</span>
+						<span><i class="fa fa-arrow-down" style="color: #E83350;"></i></span>
+						<span style="color: #E83350;">5.4%</span>
+						<div id="user-chart-2" class="map-container">	</div>
+
+					</div>
+					
+				</div>
+				
+				<div class="downloads">
+	
+					<div id="download-chart" ></div>
+				</div>
+				
+			</div>
 		</div>
 
 	</div>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+	<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+	<script src="/js/index.js"></script>
 </body>
 </html>
