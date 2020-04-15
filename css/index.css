@@ -1,0 +1,158 @@
+body {
+    background-color: #DAE0E2;
+
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: #2C3335;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-top {
+    height: auto;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    background-color: #333945;
+}
+
+
+.sidebar li {
+    margin: 15px;
+    line-height: 35px;
+    padding: 10px;
+    margin-top: 25px;
+    color: #DAE0E2;
+    font-size: 14px;
+}
+
+.sidebar li:hover {
+    cursor: pointer;
+    background-color: #2F363F;
+}
+
+.sidebar li span {
+    
+    margin-left: 20px;
+}
+
+.content {
+    margin-left: 250px;
+    background-color: #DAE0E2;
+}
+
+.snackbar {
+    background-color: white;
+    line-height: 60px;
+}
+
+.snackbar-search {
+    margin-left: 20px;
+   
+}
+
+.snackbar-search input {
+    height: 35px;
+    border: none;
+    padding: 10px;
+}
+
+.snackbar-profile {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+}
+
+.snackbar-profile span  {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.snackbar-profile span:hover {
+    transition: .5s;
+    color: #333945;
+    cursor: pointer;
+
+}
+
+.welcome {
+    margin: 25px;
+    padding: 15px;
+    line-height: 40px;
+    background-color: white;
+    border: 1px solid #A4B0BD;
+
+}
+
+.welcome span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.welcome button {
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: #1287A5;
+    border: none;
+    color: white;
+}
+
+.welcome button:hover {
+    background-color: #00CCCD;
+    cursor: pointer;
+}
+
+.pills {
+    margin: 25px;
+}
+
+.pill {
+    width: 22%; 
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 25px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+}
+
+.pill:not(:last-child) {
+    margin-right: 4%;
+}
+
+.pill-heading {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pill-num {
+    
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.neon {
+    background-color: #2ecc72;
+}
+
+.blue {
+    background-color: #3498DB;
+}
+
+.pink {
+    background-color: #E83350;
+}
+
+.ochre {
+    background-color: #F3B431;
+}
