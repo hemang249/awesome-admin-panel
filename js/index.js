@@ -102,6 +102,145 @@ const renderOverview = () => {
 				
 			</div>
 		</div>
+		<div class="projects grid-21">
+			<div class="tickets">
+				<h4>Tickets</h4>
+
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Date</th>
+						<th>Project</th>
+					</tr>
+					
+					<tr>
+						<td>Matt Hoss</td>
+						<td>03/09/2020</td>
+						<td>Crimson Solutions</td>
+					</tr>
+					<tr>
+						<td>Robert Paulson</td>
+						<td>03/02/2020</td>
+						<td>Brew Cafe</td>
+					</tr>
+					<tr>
+						<td>Katy Loraine</td>
+						<td>03/09/2020</td>
+						<td>Liberty Contractors</td>
+					</tr>
+					<tr>
+						<td>Peter Mcginon </td>
+						<td>22/07/2020</td>
+						<td>Peterson Cemetery</td>
+					</tr>
+					<tr>
+						<td>Orville Lambert</td>
+						<td>25/08/2020</td>
+						<td>Berkely Sports Center</td>
+					</tr>
+					
+					<tr>
+						<td>Lynda Houston</td>
+						<td>03/01/2020</td>
+						<td>Super Mart</td>
+					</tr>
+					
+					<tr>
+						<td>Paula Angelton</td>
+						<td>02/02/2020</td>
+						<td>Vadra Inc.</td>
+					</tr>
+					
+				</table>
+			
+			</div>
+
+			<div class="timeline-container">
+				<h4>Updates</h4>
+
+				<div class="timeline-item">
+					<h4>User Bugs Solved</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, in nulla placeat illo suscipit voluptas provident omnis sint voluptates ea.</p>
+					<br>
+					<span><i class="fa fa-clock"></i></span>
+					<span>3 Months Ago</span>
+				</div>
+
+				<div class="timeline-item">
+					<h4>Liberty Payment Done</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, in nulla placeat illo suscipit voluptas provident omnis sint voluptates ea.</p>
+					<br>
+					<span><i class="fa fa-clock"></i></span>
+					<span>5 Months Ago</span>
+				</div>
+				
+			</div>
+		</div>
+		<div class="invoices">
+			<table>
+				<tr>
+					<th>Invoice ID</th>
+					<th>Date</th>
+					<th>Client</th>
+					<th>Amount</th>
+					<th>Status</th>
+				</tr>
+				
+				<tr>
+					<td>501</td>
+					<td>03/09/2020</td>
+					<td>Crimson Solutions</td>
+					<td>$50,000</td>
+					<td class="ochre">On Hold</td>
+				</tr>
+				<tr>
+					<td>502</td>
+					<td>03/02/2020</td>
+					<td>Brew Cafe</td>
+					<td>$10,000</td>
+					<td class="neon">Success</td>
+
+				</tr>
+				<tr>
+					<td>503</td>
+					<td>03/09/2020</td>
+					<td>Liberty Contractors</td>
+					<td>$2,800</td>
+					<td class="ochre">On Hold</td>
+				</tr>
+				<tr>
+					<td>504 </td>
+					<td>22/07/2020</td>
+					<td>Peterson Cemetery</td>
+					<td>$3,000</td>
+					<td class="pink">Dispute</td>
+				</tr>
+				<tr>
+					<td>505</td>
+					<td>25/08/2020</td>
+					<td>Berkely Sports Center</td>
+					<td>$50,000</td>
+					<td class="ochre">On Hold</td>
+				</tr>
+				
+				<tr>
+					<td>506</td>
+					<td>03/01/2020</td>
+					<td>Super Mart</td>
+					<td>$100,000</td>
+					<td class="neon">Success</td>
+				</tr>
+				
+				<tr>
+					<td>507</td>
+					<td>02/02/2020</td>
+					<td>Vadra Inc.</td>
+					<td>$50,000</td>
+					<td class="ochre">On Hold</td>
+				</tr>
+				
+			</table>
+		</div>
 	`
 
 	$('#content').html('')
